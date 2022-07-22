@@ -1,6 +1,6 @@
-*{
-    margin:0px;
-    padding:0px;
+* {
+    margin: 0px;
+    padding: 0px;
     font-family: 'Fredoka', sans-serif;
 }
 
@@ -8,85 +8,99 @@
 /* header css starts here */
 
 
-.main-header{
+.main-header {
     box-shadow: 0 0 20px gray !important;
-    height: 128px;
+    height: 10vh;
+    display: flex;
 }
-.header{
-    width:100%;
-    max-width:80%; 
-    margin:auto;
-    display:flex;
-    justify-content:space-between;
-    padding: 36px;
+
+.header {
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
-body{
+
+body {
     background-color: rgba(99, 97, 97, 0.137);
     /* overflow:hidden; */
 }
-.main-body{
-    width:80%;
-    height: 100vh;
+
+.main-body {
+    width: 80%;
+    height: 90vh;
     /* min-height:1330px; */
-    margin:auto;
-    display:flex;
+    margin: auto;
+    display: flex;
     justify-content: space-between;
     position: relative;
     z-index: -1;
 }
-.sidebar{
-    width:27%;
-    background-color:rgb(9, 87, 177);
+
+.sidebar {
+    width: 27%;
+    background-color: rgb(9, 87, 177);
     height: 100%;
 }
-.sidebar p{
+
+.sidebar p {
     font-size: 20px;
     color: white;
 }
-.executive-name{
-    padding-top:70px;
-    padding-left:50px;
-    padding-bottom:20px;
+
+.executive-name {
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-bottom: 20px;
 }
-hr{
+
+hr {
     opacity: 0.3;
     width: 55%;
     margin-left: 50px;
 }
-.sidebar-menu{
-    display:flex;
-    padding-top:50px;
+
+.sidebar-menu {
+    display: flex;
+    padding-top: 50px;
     padding-left: 45px;
     align-items: center;
 }
-.sidebar-menu p{
-    padding-left:10px;
+
+.sidebar-menu p {
+    padding-left: 10px;
 }
-.sidebar-menu img{
+
+.sidebar-menu img {
     size: 50px;
 }
-.main-content{
-    height: 100vh;
-    width:100%;
-    max-width:70%;
+
+.main-content {
+    height: 90vh;
+    width: 100%;
+    max-width: 70%;
     background-color: white;
 }
-.secure-content{
-   height:100vh;
-    display:flex;
+
+.secure-content {
+    height: 90vh;
+    display: flex;
     flex-direction: column;
-    align-items:center;
-    justify-content: center; 
+    align-items: center;
+    justify-content: center;
     font-family: 'sofia-regular', sans-serif;
 
 }
-.secure-content p{
-    font-size:20px;
-    color:rgb(9, 87, 177);
+
+.secure-content p {
+    font-size: 20px;
+    color: rgb(9, 87, 177);
     line-height: 2rem;
     text-align: center;
-    font-weight:bold;
+    font-weight: bold;
 }
-.secure-content img{
+
+.secure-content img {
     margin-bottom: 30px;
 }
