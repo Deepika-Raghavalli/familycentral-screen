@@ -1,0 +1,92 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+/* header css starts here */
+
+
+.main-header{
+    box-shadow: 0 0 20px gray !important;
+    height: 128px;
+}
+.header{
+    width:100%;
+    max-width:80%; 
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    padding: 36px;
+}
+body{
+    background-color: rgba(99, 97, 97, 0.137);
+    /* overflow:hidden; */
+}
+.main-body{
+    width:80%;
+    height: 100vh;
+    /* min-height:1330px; */
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: -1;
+}
+.sidebar{
+    width:27%;
+    background-color:rgb(9, 87, 177);
+    height: 100%;
+}
+.sidebar p{
+    font-size: 20px;
+    color: white;
+}
+.executive-name{
+    padding-top:70px;
+    padding-left:50px;
+    padding-bottom:20px;
+}
+hr{
+    opacity: 0.3;
+    width: 55%;
+    margin-left: 50px;
+}
+.sidebar-menu{
+    display:flex;
+    padding-top:50px;
+    padding-left: 45px;
+    align-items: center;
+}
+.sidebar-menu p{
+    padding-left:10px;
+}
+.sidebar-menu img{
+    size: 50px;
+}
+.main-content{
+    height: 100vh;
+    width:100%;
+    max-width:70%;
+    background-color: white;
+}
+.secure-content{
+   height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center; 
+    font-family: 'sofia-regular', sans-serif;
+
+}
+.secure-content p{
+    font-size:20px;
+    color:rgb(9, 87, 177);
+    line-height: 2rem;
+    text-align: center;
+    font-weight:bold;
+}
+.secure-content img{
+    margin-bottom: 30px;
+}
